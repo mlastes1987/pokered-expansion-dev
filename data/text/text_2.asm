@@ -17,6 +17,11 @@ _AIBattleUseItemText::
 	text "!"
 	prompt
 
+_CantUsePCHere:: ; new, for portablePC
+	text "You cannot use"
+	line "this here!"
+	prompt
+
 _TradeWentToText::
 	text_ram wStringBuffer
 	text " went"
@@ -1208,11 +1213,6 @@ _GainedText::
 	text_ram wNameBuffer
 	text " gained"
 	line "@"
-	text_end
-
-_WithExpAllText::
-	text "with EXP.ALL,"
-	cont "@"
 	text_end
 
 _BoostedText::
