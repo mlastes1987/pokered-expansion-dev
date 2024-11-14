@@ -1,14 +1,15 @@
-# Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+# Pokémon Red and Blue Expansion
 
-This is a disassembly of Pokémon Red and Blue.
+A Quality of Life Rom Hack of Pokemon Red and Blue that implements the following features:
 
-It builds the following ROMs:
+-A Portable PC in the start menu.
+-Running shoes
+-Tradeback NPC in Celadon City Department Store 1st Floor
+-Gen 6 Exp. All
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
-- dmgapae0.e69.patch `sha1: 0fb5f743696adfe1dbb2e062111f08f9bc5a293a`
-- dmgapee0.e68.patch `sha1: ed4be94dc29c64271942c87f2157bca9ca1019c7`
+More features will be implemented in time as I come to learn more coding.
+
+Based on the pokered decompilation from Pret https://github.com/pret/pokered
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
