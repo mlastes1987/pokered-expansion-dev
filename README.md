@@ -1,7 +1,7 @@
 # Pokémon Red and Blue Expansion
 
 ![ScreenShot](pokered-expansion-dev-box-art.jpg)
-![ScreenShot](pokered-expansion-dev-0.png)
+![ScreenShot](pokeblue-expansion-dev-0.png)
 
 A Quality of Life Rom Hack of Pokemon Red and Blue that implements the following features:
 
