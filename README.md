@@ -1,8 +1,9 @@
 # Pokémon Red and Blue Expansion
 
+![ScreenShot](pokered-expansion-dev-box-art.jpg)
+
 A Quality of Life Rom Hack of Pokemon Red and Blue that implements the following features:
 
--A Portable PC in the start menu.
 -Running shoes
 -Tradeback NPC in Celadon City Department Store 1st Floor
 -Gen 6 Exp. All

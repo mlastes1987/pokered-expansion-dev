@@ -3,6 +3,7 @@ GainExperience:
 	cp LINK_STATE_BATTLING
 	ret z ; return if link battle
 	ld a, [wBoostExpByExpAll] ;load in a if the EXP All is being used
+	ld hl, _WithExpAllText ; this is preparing the text to show
 	and a ;check wBoostExpByExpAll value
 	jr z, .skipExpAll ; if wBoostExpByExpAll is zero, we are not using it, so we don't show anything and keep going on
 	call PrintText ; if the code reaches this point it means we have the Exp.All, so show the message
@@ -150,15 +151,16 @@ GainExperience:
 	ld a, [wWhichPokemon]
 	ld hl, wPartyMonNicks
 	call GetPartyMonName
-   ld a, [wBoostExpByExpAll] ; get using ExpAll flag
-   and a ; check the flag
-   jr nz, .skipExpText ; if there's EXP. all, skip showing any text
-   ld hl, GainedText ;there's no EXP. all, load the text to show
+    ld a, [wBoostExpByExpAll] ; get using ExpAll flag
+    and a ; check the flag
+    jr nz, .skipExpText ; if there's EXP. all, skip showing any text
+    ld hl, GainedText ;there's no EXP. all, load the text to show
 	call PrintText
 .skipExpText
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	call LoadMonData
+	call AnimateEXPBar
 	pop hl
 	ld bc, wPartyMon1Level - wPartyMon1Exp
 	add hl, bc
@@ -168,6 +170,7 @@ GainExperience:
 	ld a, [hl] ; current level
 	cp d
 	jp z, .nextMon ; if level didn't change, go to next mon
+	call KeepEXPBarFull
 	ld a, [wCurEnemyLevel]
 	push af
 	push hl
@@ -253,6 +256,7 @@ GainExperience:
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	call LoadMonData
+	call AnimateEXPBarAgain
 	ld d, $1
 	callfar PrintStatsBox
 	call WaitForTextScrollButtonPress
