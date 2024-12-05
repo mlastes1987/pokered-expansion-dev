@@ -8,7 +8,7 @@ A Quality of Life Rom Hack of Pokemon Red and Blue that implements the following
 -Running shoes
 -Moving EXP. Bar
 -Tradeback NPC in Celadon City Department Store 1st Floor
--Gen 6 Exp. All
+-Gen 6 Exp. All(wip)
 
 More features will be implemented in time as I come to learn more coding.
 
