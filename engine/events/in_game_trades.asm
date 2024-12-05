@@ -148,14 +148,14 @@ InGameTrade_DoTrade:
 	ld [wCurPartySpecies], a
 	xor a
 	ld [wMonDataLocation], a ; not used
-	ld [wRemoveMonFromBox], a
-	call RemovePokemon
-	ld a, $80 ; prevent the player from naming the mon
 	push af
 	ld a, [wInGameTradeGiveMonSpecies]
 	cp NO_MON
 	jr z, .skip_swap_mons
 	pop af
+	ld [wRemoveMonFromBox], a
+	call RemovePokemon
+	ld a, $80 ; prevent the player from naming the mon
 	call AddPartyMon
 	call InGameTrade_CopyDataToReceivedMon
 	ld a, [wPartyCount]
