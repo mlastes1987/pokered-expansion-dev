@@ -6,7 +6,7 @@ Based on the pokered disassembly by [**Pret**](https://github.com/pret/pokered)
 
 # Features
 
-- **Running Shoes** Hold by while walking to run, can run indoors and ride your bike faster.
+- **Running Shoes** Hold B while walking to run, can run indoors and ride your bike faster.
 
 - **Exp. All Gen 6 Key Item** when you receive your Exp. Share it'll distribute Exp Points to all
 mons in the party.  Can be toggled on/off.
