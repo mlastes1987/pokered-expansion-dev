@@ -1,35 +1,24 @@
 # Pokémon Red and Blue Expansion
 
 ![ScreenShot](pokered-expansion-dev-box-art.jpg)
-![ScreenShot](pokeblue-expansion-dev-0.png)
 
-A Quality of Life Rom Hack of Pokemon Red and Blue that implements the following features:
+Based on the pokered disassembly by [**Pret**](https://github.com/pret/pokered)
 
--Running shoes
--Moving EXP. Bar
--Tradeback NPC in Celadon City Department Store 1st Floor
--Gen 6 Exp. All(wip)
+# Features
 
-More features will be implemented in time as I come to learn more coding.
+- **Running Shoes** Hold by while walking to run, can run indoors and ride your bike faster.
 
-Based on the pokered decompilation from Pret https://github.com/pret/pokered
+- **Exp. All Gen 6 Key Item** when you receive your Exp. Share it'll distribute Exp Points to all
+mons in the party.  Can be toggled on/off.
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+- **Tradeback NPC** in the 1st Floor of the Celadon City Dept. Store, a Cooltrainer NPC will tradeback
+your trade evolutions.
 
+- **Moving EXP Bar**
 
-## See also
+- **Type moveset changes** Changed Gust to Flying type and Karate Chop to Fighting.
 
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+# Thanks/Credits
 
-You can find us on [Discord (pret, #pokered)](https://discord.gg/d5dubZ3).
-
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[wiki]: https://github.com/pret/pokered/wiki
-[tutorials]: https://github.com/pret/pokered/wiki/Tutorials
-[symbols]: https://github.com/pret/pokered/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokered/actions
-[ci-badge]: https://github.com/pret/pokered/actions/workflows/main.yml/badge.svg
+Thanks to the [**pret**](https://pret.github.io) community for their help and tutorials which made this
+project possible.
