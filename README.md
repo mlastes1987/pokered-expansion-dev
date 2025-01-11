@@ -18,6 +18,10 @@ your trade evolutions.
 
 - **Type moveset changes** Changed Gust to Flying type and Karate Chop to Fighting.
 
+- **Individual Party Icons** Similar to the icons in Crystal Expansion Dev, each mon in your party will have their own individual icon.
+
+![Screenshot](crystal-expansion-dev-0.png)
+
 # Thanks/Credits
 
 Thanks to the [**pret**](https://pret.github.io) community for their help and tutorials which made this
