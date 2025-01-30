@@ -1,31 +1,27 @@
-# Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+# Pokemon Red/Blue Expansion Dev
 
-This is a disassembly of Pokémon Red and Blue.
+![Screenshot](pokered-expansion-dev-box-art.jpg)
 
-It builds the following ROMs:
+Based on the pokered disassembly by [**pret**](https://github.com/pret/pokered)
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
-- dmgapae0.e69.patch `sha1: 0fb5f743696adfe1dbb2e062111f08f9bc5a293a`
-- dmgapee0.e68.patch `sha1: ed4be94dc29c64271942c87f2157bca9ca1019c7`
+# Features
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+- **Tradeback NPC** There's a Cooltrainer Male NPC on the 1st floor of the Celadon City Department Store that will trade back all your trade evolutions.
 
+- **Running Shoes** Right out of the box you'll get running shoes, allowing you to traverse Kanto that much faster.
 
-## See also
+- **Moving EXP Bar**
 
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+- **Shows when wild Pokemon are caught** Similar to Pokemon Crystal.
 
-You can find us on [Discord (pret, #pokered)](https://discord.gg/d5dubZ3).
+- **Individual Pokemon Party Icons**
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
+- **Freed up Memory Banks 1 and 1F**
 
-[wiki]: https://github.com/pret/pokered/wiki
-[tutorials]: https://github.com/pret/pokered/wiki/Tutorials
-[symbols]: https://github.com/pret/pokered/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokered/actions
-[ci-badge]: https://github.com/pret/pokered/actions/workflows/main.yml/badge.svg
+- **Gen 6 EXP. All** When you recieve your EXP. Share it will be a key item that allows your party to earn EXP after every battle.
+
+- **Known Issues** Any known or reported issues will be placed here.
+
+# Thanks/Credits
+
+Thanks to the [**pret**](https://pret.github.io) community from which their pokered disassembly and tutorials made this project possible.

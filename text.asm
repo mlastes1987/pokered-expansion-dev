@@ -266,6 +266,7 @@ INCLUDE "data/text/text_6.asm"
 SECTION "Text 11", ROMX
 
 INCLUDE "data/text/text_7.asm"
+INCLUDE "engine/battle/just_slot_machine_stuff.asm" ; to free bank1E
 
 
 SECTION "Pokédex Text", ROMX
