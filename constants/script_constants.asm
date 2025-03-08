@@ -31,6 +31,7 @@ DEF SLOTS_SOMEONESKEYS EQU $ff
 	const TRADE_FOR_CRINKLES
 	const TRADE_FOR_SPOT
 	const TRADE_WITH_SELF
+DEF NUM_NPC_TRADES EQU const_value
 
 ; in game trade dialog sets
 ; InGameTradeTextPointers indexes (see engine/events/in_game_trades.asm)
