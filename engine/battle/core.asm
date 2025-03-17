@@ -1817,6 +1817,23 @@ DrawPlayerHUDAndHPBar:
 	lb bc, 5, 11
 	call ClearScreenArea
 	callfar PlacePlayerHUDTiles
+	push hl
+	ld a, [wEnemyMonSpecies2]
+	ld [wPokedexNum], a
+	callfar IndexToPokedex
+	ld a, [wPokedexNum]
+	dec a
+	ld c, a
+	ld b, FLAG_TEST
+	ld hl, wPokedexOwned
+	predef FlagActionPredef
+	ld a, c
+	and a
+	jr z, .notOwned
+	hlcoord 1, 1
+	ld [hl], $72 ; replace this with your Poké Ball icon or other character
+.notOwned
+	pop hl
 	hlcoord 18, 9
 	ld [hl], $73
 	ld de, wBattleMonNick
