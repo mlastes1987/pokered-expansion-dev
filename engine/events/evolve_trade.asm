@@ -16,24 +16,6 @@ InGameTrade_CheckForTradeEvo:
 ; were used instead, where none can evolve.
 
 ; This was fixed in Yellow.
-
-	ld a, [wInGameTradeReceiveMonName]
-
-	; GRAVELER
-	cp "G"
-	jr z, .ok
-
-	; "SPECTRE" (HAUNTER)
-	cp "S"
-	ret nz
-	ld a, [wInGameTradeReceiveMonName + 1]
-	cp "P"
-	ret nz
-
-.ok
-	ld a, [wPartyCount]
-	dec a
-	ld [wWhichPokemon], a
 	ld a, TRUE
 	ld [wForceEvolution], a
 	ld a, LINK_STATE_TRADING
