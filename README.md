@@ -12,8 +12,6 @@ Based on the pokered disassembly by [**pret**](https://github.com/pret/pokered)
 
 - **Moving EXP Bar**
 
-- **Shows when wild Pokemon are caught** Similar to Pokemon Crystal.
-
 - **Individual Pokemon Party Icons**
 
 - **Moveset Type Changes** Karate Chop is changed to Fighting and Gust is changed to Flying type.
