@@ -1,6 +1,6 @@
 # Pokemon Red/Blue Expansion Dev
 
-![Screenshot](pokered-expansion-dev-box-art.jpg)
+![Screenshot](pokered-expansion-dev-box-art.png)
 
 Based on the pokered disassembly by [**pret**](https://github.com/pret/pokered)
 
