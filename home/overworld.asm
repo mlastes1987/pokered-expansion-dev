@@ -293,7 +293,7 @@ OverworldLoopLessDelay::
 	jr z, .surfFaster
 	; Holding B makes you run at 2x walking speed
 	ld a, [hJoyHeld]
-	and B_BUTTON
+	and B_JOYP_B
 	jr z, .notRunning
 .surfFaster
 	call DoBikeSpeedup
