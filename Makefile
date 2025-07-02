@@ -1,6 +1,6 @@
 roms := \
-	pokered.gbc \
-	pokeblue.gbc \
+	pokered-expansion-dev.gbc \
+	pokeblue-expansion-dev.gbc \
 	pokeblue_debug.gbc
 patches := \
 	pokered.patch \
@@ -48,8 +48,8 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all red blue blue_debug clean tidy compare tools
 
 all: $(roms)
-red:        pokered.gbc
-blue:       pokeblue.gbc
+red:        pokered-expansion-dev.gbc
+blue:       pokeblue-expansion-dev.gbc
 blue_debug: pokeblue_debug.gbc
 red_vc:     pokered.patch
 blue_vc:    pokeblue.patch
